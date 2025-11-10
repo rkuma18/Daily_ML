@@ -216,8 +216,8 @@ def solve_problem(input_data):
 
 **Crafted with 💙 by Roushan Kumar**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/rkuma18)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rk0718/)
 
 **Learning Resources**  
 [Deep ML Collections](https://www.deep-ml.com/collections) • [Python Docs](https://docs.python.org/) • [NumPy Guide](https://numpy.org/doc/)
