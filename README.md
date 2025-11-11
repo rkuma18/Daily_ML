@@ -82,23 +82,23 @@ Each solution includes:
 <tr>
 <td width="50%">
 
-** Matrix-Vector Dot Product**
+** Dot Product**
 
 ```python
 # Compute A @ v with validation
 # Includes dimension checking
-# NumPy optimized
+# NumPy optimized for performance
 ```
 
 </td>
 <td width="50%">
 
-** Matrix Transpose**
+** Scalar Multiplication**
 
 ```python
-# Efficient matrix transposition
-# Handles rectangular matrices
-# Multiple implementations
+# Multiply every element of matrix by a scalar
+# Works with int and float
+# Includes validation for numeric scalar
 ```
 
 </td>
