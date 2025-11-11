@@ -111,11 +111,12 @@ Each solution includes:
 
 <div align="center">
 
-| 📅 Date          | 🎯 Completed                                   | 📝 Category    | 💭 Reflection                          |
-| ---------------- | ---------------------------------------------- | -------------- | -------------------------------------- |
-| **Nov 10, 2025** | Matrix-Vector Dot Product<br/>Transpose Matrix | Linear Algebra | Mastered fundamental matrix operations |
+| 📅 Date          | 🎯 Completed                                   | 📝 Category    | 💭 Reflection                              |
+| ---------------- | ---------------------------------------------- | -------------- | ------------------------------------------ |
+| **Nov 10, 2025** | Matrix-Vector Dot Product<br/>Transpose Matrix | Linear Algebra | Mastered fundamental matrix operations     |
+| **Nov 11, 2025** | Dot_product<br/>Scalar_Multiplication          | Linear Algebra | Mastered fundamental matrix multiplication |
 
-**Current Streak:** 1 day 🔥 | **Total Problems:** 2 ✅
+**Current Streak:** 2 day 🔥 | **Total Problems:** 4 ✅
 
 </div>
 
