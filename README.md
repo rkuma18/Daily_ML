@@ -76,29 +76,32 @@ Each solution includes:
 -   **Intuitive explanations and edge case handling**
 -   **Test cases and validation**
 
-### Current Problems
+---
 
 <table>
 <tr>
 <td width="50%">
 
-** Dot Product**
+**Dot Product**
 
 ```python
-# Compute A @ v with validation
-# Includes dimension checking
-# NumPy optimized for performance
+# Compute the dot product (A @ v) with full validation
+# Ensures both inputs are compatible for matrix multiplication
+# Automatically handles 1D (vector) and 2D (matrix) cases
+# Uses NumPy for efficient, vectorized computation
 ```
 
 </td>
 <td width="50%">
 
-** Scalar Multiplication**
+**Scalar Multiplication**
 
 ```python
-# Multiply every element of matrix by a scalar
-# Works with int and float
-# Includes validation for numeric scalar
+# Perform scalar multiplication on the entire matrix
+# Multiplies each element of the matrix by a given scalar value
+# Supports both integer and floating-point scalars
+# Includes input validation to ensure the scalar is numeric
+# Returns a new matrix without modifying the original
 ```
 
 </td>
@@ -115,8 +118,9 @@ Each solution includes:
 | ---------------- | ---------------------------------------------- | -------------- | ------------------------------------------ |
 | **Nov 10, 2025** | Matrix-Vector Dot Product<br/>Transpose Matrix | Linear Algebra | Mastered fundamental matrix operations     |
 | **Nov 11, 2025** | Dot_product<br/>Scalar_Multiplication          | Linear Algebra | Mastered fundamental matrix multiplication |
+| **Nov 12, 2025** | Cosine<br/>Calculate Mean by Row or Column     | Linear Algebra | Mastered fundamental matrix multiplication |
 
-**Current Streak:** 2 day 🔥 | **Total Problems:** 4 ✅
+**Current Streak:** 3 day 🔥 | **Total Problems:** 6 ✅
 
 </div>
 
