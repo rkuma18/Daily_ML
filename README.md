@@ -82,26 +82,27 @@ Each solution includes:
 <tr>
 <td width="50%">
 
-**Dot Product**
+**A − λI (Eigenvalue Step)**
 
 ```python
-# Compute the dot product (A @ v) with full validation
-# Ensures both inputs are compatible for matrix multiplication
-# Automatically handles 1D (vector) and 2D (matrix) cases
-# Uses NumPy for efficient, vectorized computation
+# Construct the matrix (A - λI) used in eigenvalue computation
+# Subtracts λ from each diagonal entry of matrix A
+# Uses NumPy identity matrix for clean and efficient implementation
+# Supports any square matrix (2x2, 3x3, ...)
+# Returns a new matrix representing A - λI
 ```
 
 </td>
 <td width="50%">
 
-**Scalar Multiplication**
+**2×2 Matrix Inverse**
 
 ```python
-# Perform scalar multiplication on the entire matrix
-# Multiplies each element of the matrix by a given scalar value
-# Supports both integer and floating-point scalars
-# Includes input validation to ensure the scalar is numeric
-# Returns a new matrix without modifying the original
+# Compute the inverse of a 2×2 matrix using NumPy
+# Uses np.linalg.inv() for accurate numerical inversion
+# Validates that the matrix is invertible (non-zero determinant)
+# Converts list-input to NumPy array for computation
+# Returns the inverse as a new matrix (does not modify original)
 ```
 
 </td>
@@ -119,8 +120,9 @@ Each solution includes:
 | **Nov 10, 2025** | Matrix-Vector Dot Product<br/>Transpose Matrix | Linear Algebra | Mastered fundamental matrix operations     |
 | **Nov 11, 2025** | Dot_product<br/>Scalar_Multiplication          | Linear Algebra | Mastered fundamental matrix multiplication |
 | **Nov 12, 2025** | Cosine<br/>Calculate Mean by Row or Column     | Linear Algebra | Mastered fundamental matrix multiplication |
+| **Nov 13, 2025** | Eigenvalues<br/>Matrix Inverse                 | Linear Algebra | Mastered fundamental matrix multiplication |
 
-**Current Streak:** 3 day 🔥 | **Total Problems:** 6 ✅
+**Current Streak:** 4 day 🔥 | **Total Problems:** 8 ✅
 
 </div>
 
