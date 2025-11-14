@@ -33,11 +33,16 @@ DEEP_ML/
 ├── 📁 1. Linear Algebra/
 │   ├── 1_Matrix-Vector-Dot-Product.py    # Foundation: Vector operations
 │   ├── 2_Transpose-Matrix.py              # Matrix manipulations
-│   └── ...
+│   ├── 3_Dot_Product.py                   # Dot product computation
+│   ├── 4_Scalar_multiplication.py         # Scalar operations
+│   ├── 5_Cosine.py                        # Cosine similarity
+│   ├── 6_Calculate_Mean.py                # Mean by row/column
+│   ├── 7_Eigenvalues.py                   # Eigenvalue computation
+│   ├── 8_Matrix_Inverse.py                # Matrix inversion
+│   └── 9_Matrix_times_Matrix.py           # Matrix multiplication
 │
-├── 📁 2. Calculus/                         # Coming soon
-├── 📁 3. Statistics/                       # Coming soon
-├── 📁 4. Machine Learning/                 # Coming soon
+├── 📁 2. Probability and Statistics/
+│   └── 1_Poisson.py                       # Poisson distribution
 │
 ├── 🐍 venv/                                # Isolated environment
 ├── 📋 requirements.txt                     # Dependencies
@@ -82,27 +87,27 @@ Each solution includes:
 <tr>
 <td width="50%">
 
-**A − λI (Eigenvalue Step)**
+**Matrix Multiplication**
 
 ```python
-# Construct the matrix (A - λI) used in eigenvalue computation
-# Subtracts λ from each diagonal entry of matrix A
-# Uses NumPy identity matrix for clean and efficient implementation
-# Supports any square matrix (2x2, 3x3, ...)
-# Returns a new matrix representing A - λI
+# Multiply two matrices using NumPy
+# Implements the dot product of matrices
+# Validates dimensions for matrix multiplication
+# Supports any compatible matrix sizes
+# Returns the resulting matrix product
 ```
 
 </td>
 <td width="50%">
 
-**2×2 Matrix Inverse**
+**Poisson Distribution**
 
 ```python
-# Compute the inverse of a 2×2 matrix using NumPy
-# Uses np.linalg.inv() for accurate numerical inversion
-# Validates that the matrix is invertible (non-zero determinant)
-# Converts list-input to NumPy array for computation
-# Returns the inverse as a new matrix (does not modify original)
+# Calculate Poisson probability distribution
+# Models discrete events occurring over fixed intervals
+# Implements the Poisson PMF formula
+# Useful for counting rare events
+# Returns probability of k events occurring
 ```
 
 </td>
@@ -115,14 +120,15 @@ Each solution includes:
 
 <div align="center">
 
-| 📅 Date          | 🎯 Completed                                   | 📝 Category    | 💭 Reflection                              |
-| ---------------- | ---------------------------------------------- | -------------- | ------------------------------------------ |
-| **Nov 10, 2025** | Matrix-Vector Dot Product<br/>Transpose Matrix | Linear Algebra | Mastered fundamental matrix operations     |
-| **Nov 11, 2025** | Dot_product<br/>Scalar_Multiplication          | Linear Algebra | Mastered fundamental matrix multiplication |
-| **Nov 12, 2025** | Cosine<br/>Calculate Mean by Row or Column     | Linear Algebra | Mastered fundamental matrix multiplication |
-| **Nov 13, 2025** | Eigenvalues<br/>Matrix Inverse                 | Linear Algebra | Mastered fundamental matrix multiplication |
+| 📅 Date          | 🎯 Completed                                   | 📝 Category                  | 💭 Reflection                                      |
+| ---------------- | ---------------------------------------------- | ---------------------------- | -------------------------------------------------- |
+| **Nov 10, 2025** | Matrix-Vector Dot Product<br/>Transpose Matrix | Linear Algebra               | Mastered fundamental matrix operations             |
+| **Nov 11, 2025** | Dot_product<br/>Scalar_Multiplication          | Linear Algebra               | Mastered fundamental matrix multiplication         |
+| **Nov 12, 2025** | Cosine<br/>Calculate Mean by Row or Column     | Linear Algebra               | Explored similarity metrics and statistical basics |
+| **Nov 13, 2025** | Eigenvalues<br/>Matrix Inverse                 | Linear Algebra               | Advanced linear algebra concepts                   |
+| **Nov 14, 2025** | Matrix times Matrix<br/>Poisson Distribution   | Linear Algebra & Probability | Bridging algebra and statistics                    |
 
-**Current Streak:** 4 day 🔥 | **Total Problems:** 8 ✅
+**Current Streak:** 5 days 🔥 | **Total Problems:** 10 ✅
 
 </div>
 
@@ -132,13 +138,13 @@ Each solution includes:
 
 ```mermaid
 graph LR
-    A[Linear Algebra] --> B[Calculus]
-    B --> C[Statistics]
+    A[Linear Algebra] --> B[Probability & Stats]
+    B --> C[Calculus]
     C --> D[ML Fundamentals]
     D --> E[Deep Learning]
 
     style A fill:#4CAF50
-    style B fill:#ddd
+    style B fill:#81C784
     style C fill:#ddd
     style D fill:#ddd
     style E fill:#ddd
@@ -149,31 +155,34 @@ graph LR
 <details>
 <summary><b>Phase 1: Linear Algebra Mastery</b></summary>
 
--   [ ] Matrix Determinants
--   [ ] Matrix Inverses
--   [ ] Eigenvalues & Eigenvectors
+-   [x] Matrix Determinants
+-   [x] Matrix Inverses
+-   [x] Matrix Multiplication
+-   [x] Eigenvalues & Eigenvectors
 -   [ ] Singular Value Decomposition (SVD)
 -   [ ] Principal Component Analysis (PCA)
 
 </details>
 
 <details>
-<summary><b>Phase 2: Calculus Deep Dive</b></summary>
+<summary><b>Phase 2: Probability & Statistics</b></summary>
+
+-   [x] Poisson Distribution
+-   [ ] Normal Distribution
+-   [ ] Probability Distributions
+-   [ ] Maximum Likelihood Estimation
+-   [ ] Hypothesis Testing
+-   [ ] Bayesian Inference
+
+</details>
+
+<details>
+<summary><b>Phase 3: Calculus Deep Dive</b></summary>
 
 -   [ ] Gradient Descent Fundamentals
 -   [ ] Partial Derivatives
 -   [ ] Chain Rule Applications
 -   [ ] Backpropagation Mathematics
-
-</details>
-
-<details>
-<summary><b>Phase 3: Statistical Foundations</b></summary>
-
--   [ ] Probability Distributions
--   [ ] Maximum Likelihood Estimation
--   [ ] Hypothesis Testing
--   [ ] Bayesian Inference
 
 </details>
 
@@ -212,7 +221,7 @@ def solve_problem(input_data):
 
 -   PEP8 compliant
 -   Type hints where helpful
--   self-contained and executable
+-   Self-contained and executable
 -   Optimized for learning, not just performance
 
 ---
